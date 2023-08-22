@@ -1,6 +1,6 @@
 /**
 [rewrite_local]
-^https?://api\.wo\.com\.cn/client/ url script-response-body 
+^https?://api\.wo\.com\.cn/client/ url script-response-body https://github.dev/upskirj/tengxun/blob/main/10086.js
 
 [mitm]
 hostname = api.wo.com.cn
