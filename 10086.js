@@ -1,6 +1,6 @@
 /**
 [rewrite_local]
-^https?://api\.wo\.com\.cn/client/ url script-response-body remove_cmcc_ads.js
+^https?://api\.wo\.com\.cn/client/ url script-response-body 
 
 [mitm]
 hostname = api.wo.com.cn
