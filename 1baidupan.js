@@ -10,7 +10,7 @@
 // ==/UserScript==
 /**
 [rewrite_local]
-^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body baidu_pan_vip.js
+^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/upskirj/tengxun/main/1baidupan.js
 */
 (function() {
     'use strict';
