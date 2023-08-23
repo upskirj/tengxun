@@ -1,4 +1,7 @@
-
+/**
+[rewrite_local]
+^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/upskirj/tengxun/main/1baidupan.js
+*/
 // ==UserScript==
 // @name         百度网盘SVIP模拟（简化版）
 // @namespace    http://tampermonkey.net/
@@ -8,10 +11,6 @@
 // @match        https://pan.baidu.com/*
 // @grant        none
 // ==/UserScript==
-/**
-[rewrite_local]
-^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/upskirj/tengxun/main/1baidupan.js
-*/
 (function() {
     'use strict';
 
