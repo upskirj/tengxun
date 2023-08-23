@@ -1,8 +1,8 @@
-var body = $response.body;
 /**
 [rewrite_local]
-^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body baidu_pan_vip.js
+^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/upskirj/tengxun/main/baidupan.js
 */
+var body = $response.body;
 var obj = JSON.parse(body);
 
 if (obj.hasOwnProperty("product_infos")) {
