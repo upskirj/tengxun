@@ -1,11 +1,6 @@
 /**
 [rewrite_local]
-# Quantumult X 剪映VIP重写规则
-
-# 替换请求头中的Cookie
 ^https:\/\/api\.jxjr\.huohaoshipin\.com\/api\/v\d\/user\/info url script-request-header https://raw.githubusercontent.com/upskirj/tengxun/main/jianyingvip.js
-
-# 替换响应体中的VIP信息
 ^https:\/\/api\.jxjr\.huohaoshipin\.com\/api\/v\d\/user\/info url script-response-body https://raw.githubusercontent.com/upskirj/tengxun/main/jianyingvip.js
 */
 // 将响应体转换为JSON格式
